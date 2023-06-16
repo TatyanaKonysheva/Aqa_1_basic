@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netolodgy.qa.service.CashbackHackServiceTest" tests="3" skipped="0" failures="2" errors="0" timestamp="2023-06-16T18:06:46" hostname="ASUS" time="0.039">
+<testsuite name="ru.netolodgy.qa.service.CashbackHackServiceTest" tests="3" skipped="0" failures="2" errors="0" timestamp="2023-06-16T19:15:32" hostname="ASUS" time="0.028">
   <properties/>
-  <testcase name="shouldBoundaryWhenAmountAssertThousand" classname="ru.netolodgy.qa.service.CashbackHackServiceTest" time="0.017">
+  <testcase name="shouldBoundaryWhenAmountAssertThousand" classname="ru.netolodgy.qa.service.CashbackHackServiceTest" time="0.014">
     <failure message="java.lang.AssertionError: expected [0] but found [1000]" type="java.lang.AssertionError">java.lang.AssertionError: expected [0] but found [1000]
 	at org.testng.Assert.fail(Assert.java:97)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
