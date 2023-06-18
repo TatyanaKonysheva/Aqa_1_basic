@@ -26,7 +26,7 @@ public class CashbackHackServiceTest {
 
         final CashbackHackService service = new CashbackHackService();
 
-        assertEquals(service.remain(1000), 0);
+        assertEquals(service.remain(1500), 500);
     }
 
 }
