@@ -9,7 +9,7 @@ public class CashbackHackServiceTest {
     @Test
     public void shouldBoundaryWhenAmountLessThousand() {
 
-        final CashbackHackService service = new CashbackHackService();
+        CashbackHackService service = new CashbackHackService();
 
         assertEquals(service.remain(800), 200);
     }
@@ -17,14 +17,14 @@ public class CashbackHackServiceTest {
     @Test
     public void shouldBoundaryWhenAmountAssertThousand() {
 
-        final CashbackHackService service = new CashbackHackService();
+        CashbackHackService service = new CashbackHackService();
 
         assertEquals(service.remain(1000), 0);
     }
     @Test
     public void shouldBoundaryWhenAmountOverThousand() {
 
-        final CashbackHackService service = new CashbackHackService();
+        CashbackHackService service = new CashbackHackService();
 
         assertEquals(service.remain(1500), 500);
     }
