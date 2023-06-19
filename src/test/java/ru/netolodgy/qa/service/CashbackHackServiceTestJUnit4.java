@@ -19,4 +19,11 @@ public class CashbackHackServiceTestJUnit4 {
 
         assertEquals(0, service.remain(1000));
     }
+
+    @Test
+    public void shouldCahbackWhenAmountOverThousand() {
+        CashbackHackService service = new CashbackHackService();
+
+        assertEquals(500, service.remain(1500));
+    }
 }
